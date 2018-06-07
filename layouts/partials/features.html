@@ -18,7 +18,10 @@
                     </div>
                 </div>
 		{{ if or (eq (mod $index 3) 2) (eq $index (sub (len $.Site.Data.features) 1 )) }}
-			</div>
+            </div>
+            <p class="text-center">
+                <a href="/faq/" class="btn btn-template-main btn-lg">Checkout GlowTown's philosophy</a>
+            </p>
 		</div>
 		{{ end }}
         {{ end }}
