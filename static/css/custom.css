@@ -8,3 +8,19 @@
 .box-simple {
   min-height: 230px;
 }
+
+.figure-left {
+  float: left
+}
+
+.figure-left:after {
+  content: '';
+  display: block;
+  clear: both;
+  padding-bottom: 50px;
+}
+
+.gray-out {
+  opacity: 0.5;
+  filter: alpha(opacity=50);
+}
